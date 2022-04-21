@@ -1,0 +1,67 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: fit-content;
+    margin: 10px auto 40px;
+}
+.music{
+    width: 100px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 8px;
+    background-color: #ff4c4c;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+.container{
+    margin: 50px auto;
+    width: 600px;
+    background-color: #f3f4f7;
+    padding-top: 10px;
+    border: 1px solid rgb(53, 53, 53);
+    border-radius: 10px;
+}
+input{
+    display: none;
+    padding: 5px 10px;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+}
+.plus{
+    display: none;
+    width: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: #371777;
+    color: aliceblue;
+    font-size: 20px;
+    cursor: pointer;
+}
+.adds{
+    display: flex;
+    padding-bottom: 20px;
+    margin: 0 auto;
+    width: fit-content;
+}
+.nameinput, .musicinput{
+    margin-right: 10px;
+}
+li{
+    display: flex;
+    justify-content: space-between;
+    width: 438px;
+    margin: 0 auto;
+    padding-right: 50px;
+    margin-bottom: 10px;
+}
+.playlist{
+    list-style: none;
+    margin-bottom: 10px;
+}
